@@ -21,12 +21,12 @@ const SortingItems = () => {
     };
 
     return (
-        <div>
+        <div className="p-20px mt-[30px] ml-[00px]">
             <select
-                className="border-[1px] w-[30px] bg-amber-100 p-2 rounded"
+                className="border-[1px] w-[150px] bg-amber-100 p-2 rounded"
                 onChange={(event) => handleSorting(event.target.value)}
             >
-                <option value="">Select an option</option>
+                <option value="">Sorting items</option>
                 <option value="ascending">Sort by Ascending Alphabet</option>
                 <option value="descending">Sort by Descending Alphabet</option>
                 <option value="asc_date">Sort by Ascending Date</option>

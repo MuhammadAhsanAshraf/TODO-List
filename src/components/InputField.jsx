@@ -1,4 +1,5 @@
 
+import SortingItems from "./sortingItems";
 
 import { useContext, useState } from "react";
 import { ContextProvider } from "../store/contextaapi";
@@ -12,6 +13,7 @@ const InputField = () => {
 
     return (
         <div>
+
             <div className="flex justify-center gap-4 mt-4">
                 <input
                     type="text"
@@ -37,6 +39,7 @@ const InputField = () => {
                     Add
                 </button>
             </div>
+            <SortingItems />
             <ListItems />
         </div>
     );
